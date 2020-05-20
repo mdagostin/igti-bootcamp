@@ -1,0 +1,32 @@
+body {
+  padding: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: black;
+}
+labelinput {
+  display: flex;
+  flex-direction: row;
+}
+
+#red {
+  color: red;
+  font-weight: bold;
+}
+#green {
+  color: green;
+  font-weight: bold;
+}
+#blue {
+  color: blue;
+  font-weight: bold;
+}
+#quad {
+  margin-left: 150px;
+  width: 100px;
+  height: 100px;
+}

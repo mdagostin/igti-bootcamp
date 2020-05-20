@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>RGB Mixer</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <h1>Exercicio pratico RGB</h1>
+    <div id="labelinput">
+      <p id="red">
+        (R) Vermelho
+        <input type="range" name="rangeRed" min="0" max="255" id="inputRed" />
+
+        <input type="text" name="" id="actualValueRed" disabled />
+      </p>
+      <p id="green">
+        (G) Verde
+        <input
+          type="range"
+          name="rangeGreen"
+          min="0"
+          max="255"
+          id="inputGreen"
+        />
+        <input type="text" name="" id="actualValueGreen" disabled />
+      </p>
+      <p id="blue">
+        (B) Azul
+        <input type="range" name="rangeBlue" min="0" max="255" id="inputBlue" />
+        <input type="text" name="" id="actualValueBlue" disabled />
+      </p>
+    </div>
+
+    <div id="quad"></div>
+    <script src="./js/script.js"></script>
+  </body>
+</html>
